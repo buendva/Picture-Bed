@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下载</title>
+</head>
+<body>
+<form action="{{ url_for("file.download") }}" method="post">
+    <input type="text" name="filename">
+    <input type="submit">
+</form>
+</body>
+</html>
